@@ -1,11 +1,11 @@
 .banner {
   position: relative;
-  height: 53vh;
+  height: 55vh;
   margin-bottom: 9px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   max-width: 100vw;
 }
 .logo-text-container {
@@ -27,10 +27,46 @@
 
 .text-container {
   color: white;
-
   h1 {
     font-style: italic;
     color: #eaeaea;
     background-color: rgba(40,40,40,0.3);
   }
+}
+
+.title-text {
+  color: #6f6d6f;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  line-height: 4;
+  margin-top: 5px;
+  padding-left: 13px;
+  align-item: center;
+}
+
+.container-style {
+  box-shadow: 0 2px 0 rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+  border-radius: 2px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.line {
+  margin-left: 45px;
+  margin-right: 65px;
+  border-bottom: 4px solid black;
+}
+
+.paragraph-text {
+  color: #6f6d6f;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.48;
+  margin: 33px 65px 33px;
+  padding-bottom: 20px;
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
