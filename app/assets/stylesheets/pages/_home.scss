@@ -51,6 +51,16 @@
   margin-bottom: 15px;
 }
 
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.pictures-container {
+  padding-bottom: 25px;
+}
 .line {
   margin-left: 45px;
   margin-right: 65px;
@@ -69,4 +79,8 @@
     margin-top: 20px;
     margin-left: 35px;
     margin-right: 35px;
+}
+
+.scripture {
+  color: #537d91;
 }
