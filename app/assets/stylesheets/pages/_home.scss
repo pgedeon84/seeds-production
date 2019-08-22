@@ -19,22 +19,23 @@
 }
 
 .logo {
-  width: 400px;
   height: 50vh;
-  opacity: 0.8;
+  opacity: 1;
   margin-right: 30px;
-  border-radius: 10%;
+  border-radius: 3%;
 }
 
 .text-container {
-  color: white;
-  color: #eaeaea;
-  background-color: rgba(40,40,40,0.6);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-item: center;
+  align-items: center;
   width: 60vw;
+  color: white;
+  color: #eaeaea;
+  background-color: rgba(40,40,40,0.4);
+  border-radius: 3%;
+  padding: 13px;
 }
 
 .title-text {
@@ -43,7 +44,7 @@
   font-weight: bold;
   line-height: 4;
   margin-top: 5px;
-  padding-left: 13px;
+  padding: 13px;
   align-item: center;
 }
 
@@ -85,11 +86,25 @@
 }
 
 .scripture {
-  color: #537d91;
+  font-weight: bold;
+  color: #537d91
+}
+
+.color-blue {
+  color: #537d91
+}
+
+.hoto-font {
+  font-family: 'Pacifico', cursive;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-  color: #537d91;
   display: flex;
   justify-content: center;
   align-items: center;
