@@ -8,6 +8,12 @@
   top: 0;
 }
 
+a {
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 0.7px;
+}
+
 a:hover {
   color: #4f81c7 !important;
 }
