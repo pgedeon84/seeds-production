@@ -24,12 +24,25 @@
   opacity: 1;
   margin-right: 30px;
   border-radius: 3%;
-  border-style: solid;
+  border-top: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: black;
+}
+
+.images {
+  height: 50vh;
+  opacity: 1;
+  margin-right: 30px;
+  border-radius: 3%;
+  border-top: solid;
+  border-bottom: solid;
   border-width: 5px;
   border-color: black;
   background-color: black;
 }
-.logo-borderless {
+
+.images-borderless {
   height: 50vh;
   opacity: 1;
   margin-right: 30px;
