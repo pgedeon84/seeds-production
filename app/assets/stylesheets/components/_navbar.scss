@@ -12,11 +12,12 @@ a {
   border-style: solid;
   border-radius: 10%;
   border-width: 0.7px;
+  background-color: black;
 }
 
 a:hover {
   color: #4f81c7 !important;
-  background: black;
+  background: #F4F4F4;
 }
 
 .navbar-lewagon .navbar-collapse {
