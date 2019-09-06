@@ -1,4 +1,5 @@
 <header>
+  <!-- Navbar start -->
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,7 +12,9 @@
       </ul>
     </div>
   </div>
+  <!-- navbar end -->
   <br><br>
+  <!-- banner & banner content start -->
   <div class="banner" style="background-image: url('<%= cl_image_path "nq0p1ji6dwh6ftimblvc.jpg" %>')">
     <div class="logo-text-container">
       <div id="logo">
@@ -23,12 +26,13 @@
       </div>
     </div>
   </div>
+  <!-- banner & content end -->
 </header>
 <main>
+  <!-- introduction section start -->
     <div class="container container-style text-shadow">
       <h5 class="title-text color-blue"><strong><li>HOTO MEDIA GROUP LLC</li></strong></h5>
-      <div class="line">
-      </div>
+      <div class="line"></div>
         <p class="paragraph-text">
           <i class="color-black"><strong>“Each one Help One, Each one Teach One” (HOTO)</strong></i> was formed out of the necessity to help those in need with a simplistic and efficient manner. We are an experienced group of individuals who understand, because we’ve been there. We have experienced varied business environments, that were less than optimal and have chosen to be different. Our organization will treat each circumstance with integrity and honesty.
           Each team member is here to help, Period. Each brings with them their own individual talents, as well as having excelled in their own respective fields. We are now together as one, to make a change in the market place. <strong><i>"Fed Up with the good old boys ways of "pay to play"?</strong> Come home to <strong>HOTO</strong> because we've <strong>been there and lived those situations.</i></strong><br><br>
@@ -43,27 +47,54 @@
           </span>
         </p>
     </div>
+    <!-- introduction section end-->
+    <!-- images section one-->
   <div class="center-images">
     <%= cl_image_tag "kqqvclzguiueowkfsew3.png", alt: "Hands Together Image", class: "images"%>
     <%= cl_image_tag "z8r85grxxmr2qd6ldvmj.jpg", alt: "Praying Hands", class: "images"%>
   </div>
+  <!-- end of images section one-->
   <br>
+  <!-- business section start -->
   <div class="container container-style text-shadow">
-    <h5 class="title-text color-blue"><strong><li>OUR BUSINESS SERVICES</li></strong></h5>
+    <h5 class="title-text color-blue"><strong><li>HOTO MEDIA GROUP LLC - BUSINESS AND TECHNOLOGY SERVICES</li></strong></h5>
     <div class="line">
     </div>
       <p class="paragraph-text">
+        <strong class="color-black"><i>Featuring: Heidi Hilton, MBA and Michael Arbitman Ph.d</i></strong><br><br>
         <i class="color-black"><strong>HOTO Media Group’s team has a mission, “Each one Help One, each one Teach One”</strong></i>.<br><br>
         We are here to <i><strong class="color-black">serve you and your needs</strong></i> by providing you with a strategy to empower you to reach your goals. Whether you have an established business, want to transition to a new career or start a new business, our services can help you implement your plan, then market and publicize it. We are HOTO Media Group!<br><br>
         Our Tech Department can help develop and monetize your website, while helping to locate potential investors, who may be interested in your project. We have an on-staff Event Coordinator and Leadership Coach, who can take the stress out of planning an event and we can help with employment benefits that will protect your financial and physical health. We are here to serve you.<br><br>
         <i class="scripture">“But as for you, be strong and do not give up, for your work will be rewarded”- <span class="color-blue">2 Chronicles 15:7</span></i>
-        <br><br>
       </p>
+      <ul class="paragraph-text2">
+        <li>Marketing </li>
+        <li>Publicity</li>
+        <li>Milestones Radio</li>
+        <li>Planning for your life</li>
+        <li>Personal and Professional Insurance</li>
+        <li>Protect yourself from the unforeseen</li>
+      </ul>
+      <ol class="paragraph-text2">
+        <li>Health</li>
+        <li>Dental</li>
+        <li>Vision</li>
+        <li>Disability</li>
+        <li>Long Term Care</li>
+        <li>Life</li>
+        <li>High Risk Liability</li>
+        <li>401K</li>
+      </ol>
+      <br><br>
   </div>
+  <!-- business section end -->
+  <!-- images section two -->
   <div class="center-images">
     <%= cl_image_tag "cbtdhkcqtfbcjzzqubpd.jpg", alt: "Veterans Salute Image", class: "images"%>
   </div>
+  <!-- images section two end -->
   <br>
+  <!-- music and video information section -->
   <div class="container container-style text-shadow">
     <h5 class="title-text color-blue"><li><strong>MUSIC AND VIDEO PRODUCTION</strong></li></h5>
     <div class="line">
@@ -128,6 +159,8 @@
       <strong class="paragraph-text">Sound clips are available. Let’s talk.</strong><br>
        <p class="paragraph-text scripture">“Praise him with the sound of the trumpet: praise him with the psaltery and harp. Praise him with timbrel and dance: praise him with stringed instruments and organs. Praise him upon the loud cymbals: praise him upon the high sounding cymbals. Let everything that hath breath praise the Lord”- <span class="color-blue">Psalm 150: 3 – 6 </span><br><br></p>
   </div>
+  <!-- music and video information section end -->
+  <!-- images section three -->
   <div class="container container-style text-shadow">
     <h5 class="title-text color-blue">OUR HEROS TODAY - WE ARE HERE TO HELP</h5>
     <div class="line">
@@ -141,7 +174,9 @@
     <iframe width="1120" height="315" src="https://www.youtube.com/embed/GhSjMTMUHpI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <br>
+  <!-- images section three end -->
 </main>
+<!-- start of footer -->
 <footer>
   <div class="center-images">
     <%= cl_image_tag "ta3ao6oyvafi6cugum2k.png", alt: "HOTO Logo", class: "logo"%>
@@ -154,3 +189,4 @@
   <div class="footer text-shadow" style="background-color: #F4F4F4"><small>HOTO MEDIA GROUP LLC</small>
   </div>
 </footer>
+<!-- footer end -->
