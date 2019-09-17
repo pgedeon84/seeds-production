@@ -1,14 +1,18 @@
 <header>
   <!-- Navbar start -->
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="http://www.hotomediagroup.com/"><span class="color-black">Home<span></a>
-        </li>
+  <div id="navi" class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/"><span>Home</i></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span>More to Come</span></a>
+      </li>
       </ul>
     </div>
   </div>
@@ -136,7 +140,7 @@
     <!-- music and video information section end -->
 
   <!-- images section two -->
-  <div class="center-images">
+  <div class="container center-images">
     <%= cl_image_tag "cbtdhkcqtfbcjzzqubpd.jpg", alt: "Veterans Salute Image", class: "images responsive2"%>
   </div>
   <!-- images section two end -->
@@ -180,9 +184,9 @@
     <h5 class="title-text color-blue">OUR HEROS TODAY - WE ARE HERE TO HELP</h5>
     <div class="line">
     </div>
-    <div class="container pictures-container">
-      <%= cl_image_tag "f45ojl0ycdy95tc2nlrb.jpg", alt: "Homeless Veterans", class: "img", style: "width: 480px" %>
-      <%= cl_image_tag "qydjuyhl6yfhkrrhvoqg.jpg", alt: "Missing Indigneous Women Poster", class: "img", style: "width: 475px" %>
+    <div class="container-fluid pictures-container">
+      <%= cl_image_tag "f45ojl0ycdy95tc2nlrb.jpg", alt: "Homeless Veterans", class: "img responsive3", style: "width: 480px min" %>
+      <%= cl_image_tag "qydjuyhl6yfhkrrhvoqg.jpg", alt: "Missing Indigneous Women Poster", class: "img responsive2", style: "width: 475px" %>
     </div>
   </div>
   <div class="container container-style video-container">
@@ -197,11 +201,32 @@
     <%= cl_image_tag "ta3ao6oyvafi6cugum2k.png", alt: "HOTO Logo", class: "logo"%>
   </div>
   <br>
-  <div class="footer text-shadow" style="background-color: black"><h1><strong>STAY TUNED, MORE TO COME...</strong></h1>
+  <div class="footer text-shadow" style="background-color: black"><h1 id="footer-h1"><strong>STAY TUNED : MORE TO COME</strong></h1>
   </div>
-  <div><h5 class="container color-black text-shadow" style="text-align:center ">If you have any questions or wish to contact us, please email us at <a href="mailto:hotomediagroup@gmail.com? subject= HTML Link" style="text-decoration: none">"hotomediagroup@gmail.com"</a></h5>
+  <div><h5 class="container color-black text-shadow" style="text-align:center ">If you have any questions or wish to contact us, please email us at <a href="mailto:hotomediagroup@gmail.com? subject= HTML Link">hotomediagroup@gmail.com</a></h5>
   </div>
   <div class="footer text-shadow color-blue" style="background-color: black"><small>HOTO MEDIA GROUP LLC</small>
   </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i onclick="topFunction()" class="upArrow fas fa-chevron-up"></i></button>
 </footer>
 <!-- footer end -->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 2220px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
