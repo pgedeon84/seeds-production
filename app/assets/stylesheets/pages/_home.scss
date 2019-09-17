@@ -162,6 +162,16 @@
   background-color: #555;
 }
 
+@media screen and (max-width: 500px) {
+  #myBtn {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 35px;
+    line-height: 30px;
+    border: none;
+  }
+}
 a {
   text-decoration: none;
   background-color: transparent;
