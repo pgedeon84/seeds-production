@@ -1,6 +1,47 @@
-.footer {
+// .footer {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+// }
+@media screen and (max-width: 500px) {
+  .footer {
+    font-size: 18px;
+  }
+  .footer-container {
+    display: flex;
+    width: 100%;
+    background-color: #444;
+    justify-content: center;
+    height: 48px;
+  }
+  .footer-column {
+    width: 100%;
+    height: 48px;
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+  }
+}
+
+.footer-container {
   display: flex;
+  width: 100%;
+  background-color: #444;
   justify-content: center;
-  align-items: center;
+}
+/* Create three equal columns that floats next to each other */
+.footer-column {
+  width: 100%;
+  height: 120px;
+  padding-top: 2%;
   color: white;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
