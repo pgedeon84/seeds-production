@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  width: 51.5vw;
+  width: 56.5vw;
   color: #eaeaea;
   background-color: rgba(0,0,0,0.6);
   border-radius: 3%;
@@ -131,6 +131,9 @@
 .color-black {
   color: black;
 }
+.color-red {
+  color: #c70d3a;
+}
 
 .color-white {
   color: white;
@@ -163,6 +166,17 @@
   background-color: #555;
 }
 
+#header-tagline {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.header-tag-text {
+  font-style: italic;
+  background-color: rgba(211,211,211,0.1);
+  align-text: center;
+}
+
 @media screen and (max-width: 500px) {
   #myBtn {
     text-align: center;
@@ -179,10 +193,11 @@
   #header-tagline {
     font-size: 32px;
   }
+
 }
 a {
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: darkblue;
+  color: #c70d3a;
 }
